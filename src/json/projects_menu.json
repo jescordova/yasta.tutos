@@ -7,7 +7,7 @@
 		"title": "Projets Astro",
 		"description": "Découvrez tout les projets (Blogs, Sites, Portfolios et Apps) construit et réalisés avec le framework Astro.",
 		"urlProject": "/blogs/",
-        "urlName": "Plus de Astro Blogs",
+        "urlName": "Plus de Projets",
 		"tech": ["Astro", "GitHub", "Netlify"],
 		"show_exe": false,
 		"show_exe_url": ""
