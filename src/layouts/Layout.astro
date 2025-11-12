@@ -1,18 +1,20 @@
 ---
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
+
+const { title, description } = Astro.props;
 ---
 
 <html lang="fr">
 	<head>
 		<meta charset="utf-8" />
-		<meta name="description" content="" />
+		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-		<title>Yasta.Tutos</title>
+		<title>{title} | Yasta.Tutos</title>
 	</head>
 	<body>
 		<div class="container">

@@ -1,0 +1,15 @@
+[
+    {
+		"isActive": true,
+		"icon" : "",
+		"logo": "https://logo.svgcdn.com/devicon/astro-original.png",
+		"target": false,
+		"title": "Projets Astro",
+		"description": "Découvrez tout les projets (Blogs, Sites, Portfolios et Apps) construit et réalisés avec le framework Astro.",
+		"urlProject": "/blogs/",
+        "urlName": "Plus de Astro Blogs",
+		"tech": ["Astro", "GitHub", "Netlify"],
+		"show_exe": false,
+		"show_exe_url": ""
+	}
+]

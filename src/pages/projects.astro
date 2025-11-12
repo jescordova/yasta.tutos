@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import projectsMenu from "../json/projects_menu.json";
+import Card from "../components/Card.astro";
+
+const page = {
+    title: "Projects",
+    description: "Liste de Projects avec les dernièrs technologies utilisées pour chaque projet dans un tutoriel",
+}
+---
+
+<Layout {...page}>
+    <section>
+        <div class="projects-container">
+            {projectsMenu.map((project) => (
+                <Card {...project} />
+            ))}
+        </div>
+	</section>
+</Layout>
