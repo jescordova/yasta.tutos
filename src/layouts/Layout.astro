@@ -1,0 +1,25 @@
+---
+import "../styles/global.css";
+---
+
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+		<title>Yasta.Tutos</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- header component -->
+			<main>
+				<slot />
+			</main>
+			<!-- footer component -->
+		</div>
+	</body>
+</html>
