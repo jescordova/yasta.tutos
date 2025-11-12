@@ -1,0 +1,13 @@
+---
+import Social from "../components/Social.astro";
+import socialMenu from "../json/social_menu.json";
+---
+
+<footer class="flex justify-between items-center pt-2">
+    <p class="text-(--gray)">© {new Date().getFullYear()} <a href="https://yastatutos.netlify.app/" target="_blank" class="text-(--social) hover:text-(--social-hover)">Yasta.Tutos</a> | Tous droits réservés.</p>
+    <div class="social-menu flex gap-1">
+        {socialMenu.map((item) => (
+            <Social {...item} />
+        ))}
+    </div>
+</footer>
