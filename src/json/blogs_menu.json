@@ -1,5 +1,6 @@
 [
     {
+		"show_active": true,
         "isActive": true,
         "icon" : "bx bxs-extension",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJoxiAXVIxedd5WnxL3yepJpACK2lmCSl9w&s",
@@ -7,9 +8,9 @@
         "title": "Blog avec Astro",
         "description": "Découvrez les fonctionnalités clés d'Astro en créant un blog entièrement fonctionnel, de zéro à son lancement complet !",
         "urlProject": "https://exe-blog-astro.netlify.app/",
-        "urlName": "Modèle Blog Astro",
+        "urlName": "Voir le Blog Astro",
         "tech": ["Astro", "Composants", "CSS", "JS", "GitHub"],
-        "show_exe": true,
-		"show_exe_url": "https://github.com/jescordova/blog-with-astro"
+        "show_url": true,
+		"url": "https://github.com/jescordova/blog-with-astro"
     }
 ]

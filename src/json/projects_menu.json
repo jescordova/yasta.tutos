@@ -1,5 +1,6 @@
 [
     {
+		"show_active": false,
 		"isActive": true,
 		"icon" : "",
 		"logo": "https://logo.svgcdn.com/devicon/astro-original.png",
@@ -9,7 +10,7 @@
 		"urlProject": "/blogs/",
         "urlName": "Plus de Projets",
 		"tech": ["Astro", "GitHub", "Netlify"],
-		"show_exe": false,
-		"show_exe_url": ""
+		"show_url": false,
+		"url": ""
 	}
 ]

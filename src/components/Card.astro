@@ -1,11 +1,11 @@
 ---
-const {isActive, icon, title, description, urlProject, urlName, tech, logo, target, show_exe, show_exe_url} = Astro.props;
+const {isActive, icon, title, description, urlProject, urlName, tech, logo, target, show_url, url, show_active} = Astro.props;
 ---
 
 <div class="flex flex-col max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-(--bg) dark:border-gray-700">
     <span class="flex justify-between items-start pb-4">
         {!icon ? <img src={logo} alt={title} class="w-15 h-15 dark:bg-(--logo) rounded-sm p-1"> : <i class={`${icon} text-7xl text-(--logo)`}></i>}
-        <i class={`${isActive ? 'text-green-500' : 'text-red-500'} bx bx-radio-circle-marked`}></i>
+        {show_active ?  <i class={`${isActive ? 'text-green-500' : 'text-gray-500'} text-2xl bx bxs-check-square`}></i> : ''}
     </span>
     <a href={urlProject} target={target ? '_blank' : ''}>
         <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{title}</h5>
@@ -18,8 +18,8 @@ const {isActive, icon, title, description, urlProject, urlName, tech, logo, targ
         <a href={urlProject} target={target ? '_blank' : ''} class={`inline-flex items-center text-(--links) hover:underline`}>
             <span class="flex items-center">{urlName}  <i class='bx bx-link-external ml-1'></i></span>
         </a>  
-        <a href={show_exe_url} target={target ? '_blank' : ''} class={`inline-flex items-center text-(--links) hover:underline`}>
-            {show_exe ? <span class="flex items-center">Code <i class='bx bx-link-external ml-1'></i></span>  : ''}
+        <a href={url} target={target ? '_blank' : ''} class={`inline-flex items-center text-(--links) hover:underline`}>
+            {show_url ? <span class="flex items-center">Code <i class='bx bx-link-external ml-1'></i></span>  : ''}
         </a>
     </div>
 </div>
