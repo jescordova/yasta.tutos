@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import apis from "../json/apis_menu.json";
+
+const page = {
+    title: "API REST",
+    description: "liste des approches API REST",
+}
+---
+
+<Layout {...page}>
+    <section>
+        <div class="apis-container">
+            {apis.map((api) => (
+                <Card {...api} />
+            ))}
+        </div>
+	</section>
+</Layout>

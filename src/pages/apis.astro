@@ -1,0 +1,19 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Users from "../components/apis/Users.astro";
+
+const page = {
+    title: "API REST Exemples",
+    description: "Liste des toutes les API REST",
+}
+const title = {
+    "users": "Approche côté serveur la plus simple",
+    
+}
+---
+
+<Layout {...page}>
+    <section class="users_list flex flex-col gap-4">
+            <Users title={title.users} />
+	</section>
+</Layout>
