@@ -12,5 +12,19 @@
 		"tech": ["Astro", "GitHub", "Netlify"],
 		"show_url": false,
 		"url": ""
+	},
+	{
+		"show_active": false,
+		"isActive": false,
+		"icon" : "",
+		"logo": "https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/rest-api-icon.png",
+		"target": false,
+		"title": "API REST",
+		"description": "Récupération des données depuis un API dans un composant Astro de la plus simple à la plus avancée.",
+		"urlProject": "/api-rest/",
+        "urlName": "Plus d'Apis",
+		"tech": ["Astro", "Rreact", "GitHub", "Netlify"],
+		"show_url": false,
+		"url": ""
 	}
 ]
