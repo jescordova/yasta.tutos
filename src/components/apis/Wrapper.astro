@@ -1,0 +1,16 @@
+---
+const { src, name, email} = Astro.props;
+---
+
+<div class="wrapper flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 border border-(--primary-border) rounded-lg shadow hover:shadow-lg transition-all overflow-x-hidden">
+  <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0 border border-(--primary-border)" src={src} alt={name} />
+  <div class="space-y-2 text-center sm:text-left">
+    <div class="space-y-0.5">
+      <p class="text-lg font-semibold text-black">{name}</p>
+      <p class="font-medium text-gray-500 text-xs">{email}</p>
+    </div>
+    <button class="bg-(--social) hover:bg-transparent hover:text-(--social) text-white border border-(--social) rounded-full px-4 py-1 active:bg-purple-700 active:border-transparent active:text-white transition-all cursor-pointer text-xs">
+      Message
+    </button>
+  </div>
+</div>
