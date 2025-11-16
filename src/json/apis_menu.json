@@ -12,5 +12,19 @@
 		"tech": ["API", "TypeScript", "JavaScript", "GitHub"],
 		"show_url": true,
 		"url": "/posts/api-rest/post-1/"
+	},
+	{
+		"show_active": true,
+		"isActive": true,
+		"icon" : "bx bxs-customize",
+		"logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJoxiAXVIxedd5WnxL3yepJpACK2lmCSl9w&s",
+		"target": false,
+		"title": "Obtenir quelques utilisateurs de l’API",
+		"description": "Utilise toujours l'URL quand c'est possible ! Ça limite directement côté API au lieu de récupérer 30 résultats pour en utiliser 5",
+		"urlProject": "/apis/#post-2",
+        "urlName": "Api in live",
+		"tech": ["API", "TypeScript", "JavaScript", "GitHub"],
+		"show_url": true,
+		"url": "/posts/api-rest/post-2/"
 	}
 ]
