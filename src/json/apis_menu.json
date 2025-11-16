@@ -5,10 +5,10 @@
 		"icon" : "bx bx-extension",
 		"logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJoxiAXVIxedd5WnxL3yepJpACK2lmCSl9w&s",
 		"target": false,
-		"title": "Récupérer des données d'une API",
+		"title": "Récupérer les données d'une API Users",
 		"description": "Lire sa documentation pour connaître le point d'accès (URL) et les méthodes disponibles de l'API.",
 		"urlProject": "/apis/#post-1",
-        "urlName": "Lire un Api",
+        "urlName": "Api en live",
 		"tech": ["API", "TypeScript", "JavaScript", "GitHub"],
 		"show_url": true,
 		"url": "/posts/api-rest/post-1/"

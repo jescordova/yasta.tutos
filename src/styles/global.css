@@ -1,1 +1,127 @@
 @import "tailwindcss";
+
+:root {
+    --success: var(--color-green-500);
+    --success-bg: var(--color-green-100);
+    --success-border: var(--color-green-200);
+    
+    --danger: var(--color-red-500);
+    --danger-bg: var(--color-red-100);
+    --danger-border: var(--color-red-200);
+    
+    --warning: var(--color-yellow-500);
+    --warning-bg: var(--color-yellow-100);
+    --warning-border: var(--color-yellow-200);
+    
+    --info: var(--color-cyan-500);
+    --info-bg: var(--color-cyan-100);
+    --info-border: var(--color-cyan-200);
+    
+    --gray: var(--color-gray-500);
+    --gray-bg: var(--color-gray-100);
+    --gray-border: var(--color-gray-200);
+
+    --primary: var(--color-blue-500);
+    --primary-hover: var(--color-blue-700);
+    --primary-bg: var(--color-blue-100);
+    --primary-border: var(--color-blue-200);
+
+    --dark: var(--color-gray-900);
+    --white: var(--color-white-100);
+    --shadown: var(--color-gray-400);
+
+    --social: var(--color-cyan-600);
+    --social-hover: var(--color-cyan-700);
+    --social-bg: #cfe2f4;
+    
+    --text: var(--color-gray-100);
+    --text-hover: var(--color-gray-700);
+    --links: var(--color-cyan-500);
+    --bg: var(--color-gray-800);
+    --logo: var(--color-cyan-500);
+}
+
+/* @apply py-4; */
+/* @apply animate-pulse; */
+/* @apply min-h-screen; */
+
+body {
+    background: var(--primary-bg);
+    padding: 1rem;
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+.container {
+    border: 1px solid var(--primary-border);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    max-width: 90ch;
+    width: 100%;
+    min-height: calc(100vh - 2rem);
+    margin: 0 auto;
+    transition: box-shadow .2s  ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.container:hover {
+    box-shadow: 0px 1px 7px var(--shadown);
+} 
+
+main {
+    flex: 1;
+    border-top: 1px solid var(--primary-border);
+    border-bottom: 1px solid var(--primary-border);
+    padding: 1rem 0;
+}
+
+.projects-container,
+.apis-container,
+.list-users{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+ul {
+    list-style: disc;
+    margin: 1rem 0;
+    margin-left: 2rem;
+}
+.expressive-code {
+    margin: 0.5rem 0;
+}
+h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: var(--text-hover);
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.1rem;
+    margin-top: 1rem;
+    color: var(--text-hover);
+}
+h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.1rem;
+    margin-top: 1rem;
+    color: var(--text-hover);
+}
+p{
+    margin: 1rem 0;
+}
+.wrapper {
+    p {
+        margin: 0;
+    }
+}
+ol {
+    list-style: decimal;
+    margin: 1rem 0;
+    margin-left: 1rem;
+}
