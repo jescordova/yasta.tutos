@@ -2,6 +2,8 @@
 import Layout from "../layouts/Layout.astro";
 import Users from "../components/apis/Users.astro";
 import UsersB from "../components/apis/UsersB.astro";
+import SimpleApi from "../components/apis/SimpleApi.astro";
+
 const page = {
     title: "API REST Exemples",
     description: "Liste des toutes les API REST",
@@ -9,6 +11,7 @@ const page = {
 const title = {
     "users": "Récupérer les données d'une API",
     "usersB": "Obtenir quelques utilisateurs de l’API",
+    "simpleApi": "API REST Simple",
 }
 ---
 
@@ -16,5 +19,6 @@ const title = {
     <section class="users_list flex flex-col gap-4">
             <Users title={title.users} />
             <UsersB title={title.usersB} />
+            <SimpleApi title={title.simpleApi} />
 	</section>
 </Layout>

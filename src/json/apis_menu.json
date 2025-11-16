@@ -26,5 +26,19 @@
 		"tech": ["API", "TypeScript", "JavaScript", "GitHub"],
 		"show_url": true,
 		"url": "/posts/api-rest/post-2/"
+	},
+	{
+		"show_active": true,
+		"isActive": true,
+		"icon" : "bx bxs-extension",
+		"logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJoxiAXVIxedd5WnxL3yepJpACK2lmCSl9w&s",
+		"target": false,
+		"title": "API REST Simple",
+		"description": "C'est la méthode recommandée pour les données publiques qui ne changent pas souvent. Astro exécute ce code uniquement au moment du build.",
+		"urlProject": "/apis/#post-3",
+        "urlName": "Api in live",
+		"tech": ["TypeScript", "JavaScript", "TailwindCSS", "GitHub"],
+		"show_url": true,
+		"url": "/posts/api-rest/post-3/"
 	}
 ]
