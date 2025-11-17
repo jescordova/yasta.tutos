@@ -5,6 +5,7 @@ import UsersB from "../components/apis/UsersB.astro";
 import SimpleApi from "../components/apis/SimpleApi.astro";
 import LoadingApi from "../components/apis/LoadingApi.astro";
 import ClientApi from "../components/apis/ClientApi.astro";
+import UserApiReact from "../components/apis/UserApiReact.tsx";
 const page = {
     title: "API REST Exemples",
     description: "Liste des toutes les API REST",
@@ -15,6 +16,7 @@ const title = {
     "simpleApi": "API REST Simple",
     "loadingApi": "Approche avec gestion d'erreurs et loading state",
     "clientApi": "Approche côté client avec interactivité",
+    "userApiReact": "Approche avec composant framework (React, Vue, etc.)",
 }
 ---
 
@@ -25,5 +27,6 @@ const title = {
             <SimpleApi title={title.simpleApi} />
             <LoadingApi title={title.loadingApi} />
             <ClientApi title={title.clientApi} />
+            <UserApiReact client:load title ={title.userApiReact} />
 	</section>
 </Layout>

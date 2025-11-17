@@ -68,5 +68,19 @@
 		"tech": ["Astro", "Tailwind CSS"],
 		"show_url": true,
 		"url": "/posts/api-rest/post-5/"
+	},
+	{
+		"show_active": true,
+		"isActive": false,
+		"icon" : "bx bxs-layer",
+		"logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJoxiAXVIxedd5WnxL3yepJpACK2lmCSl9w&s",
+		"target": false,
+		"title": "Aproche avec composants",
+		"description": "Approche avec composant framework (React, Vue, Svelte, etc.)",
+		"urlProject": "/apis/#post-6",
+        "urlName": "Composants React live",
+		"tech": ["React", "TypeScript", "Tailwind CSS", "GitHub"],
+		"show_url": true,
+		"url": "/posts/api-rest/post-6/"
 	}
 ]
