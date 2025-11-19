@@ -82,5 +82,19 @@
 		"tech": ["React", "TypeScript", "Tailwind CSS", "GitHub"],
 		"show_url": true,
 		"url": "/posts/api-rest/post-6/"
+	},
+	{
+		"show_active": true,
+		"isActive": false,
+		"icon" : "bx bxs-mask",
+		"logo": "https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/rest-api-icon.png",
+		"target": false,
+		"title": "Approche avec API REST Caching/Proxy",
+		"description": "Cacher les données ou éviter les CORS d'une Route API d'Astro (pour caching/proxy).",
+		"urlProject": "#",
+        "urlName": "Caching/Proxy live",
+		"tech": ["React", "Ts", "Astro", "Tailwind CSS", "GitHub"],
+		"show_url": true,
+		"url": "/posts/api-rest/post-7/"
 	}
 ]
