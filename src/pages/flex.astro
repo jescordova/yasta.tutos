@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import flexbox from "../json/flex-menu.json";
+
+const page = {
+    title: "Astro",
+    description: "liste des approches API REST",
+}
+---
+
+<Layout {...page}>
+    <section>
+        <div class="sites-container">
+            {flexbox.map((flex) => (
+                <Card {...flex} />
+            ))}
+        </div>
+	</section>
+</Layout>

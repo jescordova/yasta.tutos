@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import sites from "../json/sites_menu.json";
+
+const page = {
+    title: "Astro",
+    description: "liste des approches API REST",
+}
+---
+
+<Layout {...page}>
+    <section>
+        <div class="sites-container">
+            {sites.map((site) => (
+                <Card {...site} />
+            ))}
+        </div>
+	</section>
+</Layout>
