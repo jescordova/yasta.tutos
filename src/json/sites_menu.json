@@ -1,0 +1,30 @@
+[
+    {
+		"show_active": true,
+        "isActive": true,
+        "icon" : "bx bxs-extension",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJoxiAXVIxedd5WnxL3yepJpACK2lmCSl9w&s",
+        "target": true,
+        "title": "Green Portfolio",
+        "description": "Green Portfolio est un portfolio moderne et responsive conçu pour présenter le travail et les réalisations.",
+        "urlProject": "https://green-portffolio.netlify.app/",
+        "urlName": "Voir ",
+        "tech": ["Astro", "Composants", "CSS", "JS", "GitHub"],
+        "show_url": true,
+		    "url": "https://github.com/jescordova/green-porrtfolio"
+    },
+    {
+		"show_active": true,
+        "isActive": true,
+        "icon" : "bx bxs-extension",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJoxiAXVIxedd5WnxL3yepJpACK2lmCSl9w&s",
+        "target": true,
+        "title": "Blog avec Astro",
+        "description": "Découvrez les fonctionnalités clés d'Astro en créant un blog entièrement fonctionnel, de zéro à son lancement complet !",
+        "urlProject": "https://exe-blog-astro.netlify.app/",
+        "urlName": "Voir le Blog Astro",
+        "tech": ["Astro", "Composants", "CSS", "JS", "GitHub"],
+        "show_url": true,
+		    "url": "https://github.com/jescordova/blog-with-astro"
+    }
+]

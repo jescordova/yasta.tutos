@@ -1,0 +1,30 @@
+[
+    {
+		"show_active": true,
+        "isActive": true,
+        "icon" : "",
+        "logo": "https://cdn2.iconfinder.com/data/icons/layout-62/24/squares-1001-512.png",
+        "target": true,
+        "title": "Flexbox Container & Item",
+        "description": "Découvrez Flexbox une nouvelle approche pour construire des interfaces utilisateur avec Astro.",
+        "urlProject": "https://green-portffolio.netlify.app/flexbox/tuto/",
+        "urlName": "Voir ",
+        "tech": ["Flexbox", "Astro", "Composants", "CSS", "JS", "GitHub"],
+        "show_url": true,
+		    "url": "https://github.com/jescordova/green-porrtfolio"
+    },
+    {
+		"show_active": true,
+        "isActive": true,
+        "icon" : "",
+        "logo": "https://images.vexels.com/media/users/3/144131/isolated/preview/29576a7e0442960346703d3ecd6bac04-picture-doodle-icon.png",
+        "target": true,
+        "title": "Exemples avec Flexbox",
+        "description": "Découvrez Flexbox une nouvelle approche pour construire des interfaces utilisateur avec Astro.",
+        "urlProject": "https://green-portffolio.netlify.app/flexbox/examples/",
+        "urlName": "Voir",
+        "tech": ["Flexbox", "Astro", "Composants", "CSS", "JS", "GitHub"],
+        "show_url": true,
+		    "url": "https://github.com/jescordova/blog-with-astro"
+    }
+]
